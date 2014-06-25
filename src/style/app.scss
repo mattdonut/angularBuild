@@ -1,0 +1,8 @@
+// Import the color definitions
+@import "partials/colors";
+// Import the customizations to the Bootstrap framework
+@import "partials/customBS";
+// Import Bootstrap now that the custom settings are in place
+@import "bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// Use the customized Bootstrap to build custom components
+@import "partials/customBS_extensions";

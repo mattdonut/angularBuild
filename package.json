@@ -1,0 +1,22 @@
+{
+  "name": "Proto",
+  "description": "Proto Web Frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mattdonut/angularBuild",
+  "repository": "mattdonut/angularBuild",
+  "author": "Matt Brunner <matt.donut.brunner@gmail.com>",
+  "devDependencies": {
+    "event-stream": "^3.1.5",
+    "gulp": "^3.7.0",
+    "gulp-angular-filesort": "^0.1.1",
+    "gulp-bower-files": "^0.2.4",
+    "gulp-clean": "^0.3.0",
+    "gulp-coffee": "^1.4.3",
+    "gulp-concat": "^2.2.0",
+    "gulp-inject": "^0.4.1",
+    "gulp-livereload": "^1.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-uglify": "^0.3.0"
+  }
+}
