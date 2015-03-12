@@ -9,3 +9,5 @@ This version includes:
 - angular-ui-router
 - bootstrap 3
 - angularStrap
+
+I may change this soon...
