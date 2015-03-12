@@ -10,7 +10,28 @@
         <!-- inject:head:js -->
         <!-- endinject -->
     </head>
-    <body>
+    <body data-ng-app="proto">
+        <tab-nav>
+            <ul>
+                <li ng-repeat="tab in tabNav.tabs" ng-click="tabNav.activateTab(tab)">
+                    {{tab.title}}
+                </li>
+            </ul>
+            <tab-nav-tab data-title="'Tab 1'">
+                <h3>This is a tab?</h3>
+                <tab-nav>
+                    <ul>
+                        <li ng-repeat="tab in tabNav.tabs" ng-click="tabNav.activateTab(tab)">
+                            {{tab.title}}
+                        </li>
+                    </ul>
+                    <tab-nav-tab data-title="'Subtab'" default>Subtab?</tab-nav-tab>
+                    <tab-nav-tab data-title="'Subtab!!!!'">Subtab!</tab-nav-tab>
+                </tab-nav>
+            </tab-nav-tab>
+            <tab-nav-tab data-title="'Tabberoo'" default>This is a tab!</tab-nav-tab>
+            <tab-nav-tab data-title="'Taberusque'">This is a tab?!!@</tab-nav-tab>
+        </tab-nav>
         <!-- inject:js -->
         <!-- any *.js files among your sources will go here as: <script src="FILE"></script> -->
         <!-- endinject -->
